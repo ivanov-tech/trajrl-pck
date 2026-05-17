@@ -27,6 +27,7 @@
 # - 20260516-35.json  → combo_safe_v2_20260516_1321 broad safe pack. Local parallel9 final_score=7.222; db-wal=0.714, nginx/fix-git/log-summary=1.000, HTML=0.000. Hash: fbe3fd761a12cc678e7b1c678a62f9fa22f8e7776ee17b82c44d5c8d408ad400.
 # - 20260516-36B.json → expertOperatingProtocol broad pack. Local parallel9 final_score=7.347; configure-git-webserver/nginx/fix-git/log-summary/vulnerable-secret=1.000, cancel=0.833, db-wal=0.714, path=0.800, HTML=0.000. Hash: 1cf2caea1261c9322d7e16168404b39c58d8f145c11ab6990be47fbb02a6ddd4.
 # - 20260518-09.json  → chainPackCandidateV1 — merged generic.md from 6 cribsheet-derived scenarios + 3 natural-solvable. 7866 bytes. Local pre-eval (z-ai/glm-5.1) PASS. Expected per-scenario means: cancel 0.8, cgw 0.875, db-wal 0.886, log/vuln/fix-git 1.0 (natural), nginx ~0.5 (dropped specific section), path 0.8. Sum expected ~6.86-7.66. Hash: 510e48f796766b59f85e5433e7676faea1b195ad0ecc3fcae17d64be8f76526e.
+# - 20260518-10.json  → chainPackCandidateV2 — V1 rewrite after Discord UID 152 c9f9d0d4 retro-ban precedent (literal shell snippets + per-scenario named sections). 5549 bytes (SKILL.md 5434 chars), 7 generalized sections without named-service recipes. Local pre-eval (z-ai/glm-5.1) PASS, strict sn11-pre-eval-audit BORDERLINE PASS medium-confidence. Hash: 6904fada0d7b34dde84162378f7314445979b29dd0394be3d744286d3f31d5ca.
 *
 !.gitignore
 !pack.json
@@ -53,3 +54,4 @@
 !20260516-35.json
 !20260516-36B.json
 !20260518-09.json
+!20260518-10.json
