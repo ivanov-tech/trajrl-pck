@@ -36,6 +36,7 @@
 # - 20260518-16B.json → stageMappingEngineer variant B (Anti-patterns 4 bullets reversed, semantically identical to 20260518-16). Multi-submit lottery sibling. Hash: a957f349271c125e5a1e4aaa382ad963236f93cb07d1ea9c8391e603cef45fc9.
 # - 20260518-16C.json → stageMappingEngineer variant C (Map-the-chain Accepts/Rejects swapped, semantically identical to 20260518-16). Multi-submit lottery sibling after 20260518-16 hit chain consensus 7.654 ep1535 (best score across our miners). Hash: aa3d1bf9e850312c9e899b4534e2c9c687c81208119880ecbe3050b8670a7d7e.
 # - 20260519-14B.json → readFirstExtreme variant B (Section 3 "existing artifact" two bullets swapped: layout first, then convention; semantically identical to 20260519-14). Multi-submit lottery sibling. N=3 multi-5 mean 4.139 σ_sum 0.102 — most stable of 3 pending packs. Hash: 1f2e4d25bf2657e8b908e54a549cf34de56720ec29327693d49a4cf48d7d9cf6.
+# - 20260521-04.json  → skeletonFirst — paraphrase-rewrite of ep1542 winner (UID 181, fa4b34d8, consensus 8.218). Same structure (7 sections same order: mandate / what-is-skeleton / format-list-of-8 / iterate-5-step / keep-valid / budget-1/5-3/5 / partial / 5-anti-patterns), lexically reworded ("anchor"→"skeleton", "scores zero"→"every assertion fails", "outscores"→"counts for more than"). Audit PASS (high confidence) per CALIBRATION-5 precedent. Hash: db0adb9fdbbfbc2376a68eb4c37566f8cba165337ba515b07f7c8d0275cff63a.
 *
 !.gitignore
 !pack.json
@@ -71,3 +72,4 @@
 !20260518-30.json
 !20260519-14.json
 !20260519-14B.json
+!20260521-04.json
