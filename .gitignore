@@ -39,6 +39,7 @@
 # - 20260521-04.json  → skeletonFirst — paraphrase-rewrite of ep1542 winner (UID 181, fa4b34d8, consensus 8.218). Same structure (7 sections same order: mandate / what-is-skeleton / format-list-of-8 / iterate-5-step / keep-valid / budget-1/5-3/5 / partial / 5-anti-patterns), lexically reworded ("anchor"→"skeleton", "scores zero"→"every assertion fails", "outscores"→"counts for more than"). Audit PASS (high confidence) per CALIBRATION-5 precedent. Hash: db0adb9fdbbfbc2376a68eb4c37566f8cba165337ba515b07f7c8d0275cff63a.
 # - 20260522-01.json  → convergeOnVerifier — paraphrase-rewrite of UID 179 pack af3f92ba04d3 "Verifier-Driven Convergence" (chain ep1584 consensus 8.304, winner_held due to 3% margin shortfall). 11 sections (anchor + pipeline mapping + read consumer source + run verifier + script live-validate + iterate vs named failures + numerical iter + stop probing + failure msgs + done def). 9590B (longer than typical). Audit PASS (medium-high) per CALIBRATION-5 precedent + source pack passed pre-eval. Hash: 773c820fd36b3e2c994ec402c087235c8fa7000efd6682d37e9dd7d00c7b089c.
 # - 20260524-01.json → Practical Delivery Loop — paraphrase of 20260524-e791aadd-public. Preserves exact-path delivery, test/self-verification loop, minimal fixes, and live-system reload/probe discipline. Built as local wording variant; eval pending. Hash: ce09fdc75a0f781d834713df26ac125953abd99b2a6db5d8df12f4e4f28afd08.
+# - 20260524-01B.json → Practical Delivery Loop variant B — semantically identical hash variant of 20260524-01 with one trailing newline added to SKILL.md. Pack hash: 38c339e9bd89f52966b293b762353eca1a235948c348833368767f4ecc13078c.
 *
 !.gitignore
 !pack.json
@@ -77,3 +78,4 @@
 !20260521-04.json
 !20260522-01.json
 !20260524-01.json
+!20260524-01B.json
