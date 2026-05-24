@@ -38,6 +38,7 @@
 # - 20260519-14B.json → readFirstExtreme variant B (Section 3 "existing artifact" two bullets swapped: layout first, then convention; semantically identical to 20260519-14). Multi-submit lottery sibling. N=3 multi-5 mean 4.139 σ_sum 0.102 — most stable of 3 pending packs. Hash: 1f2e4d25bf2657e8b908e54a549cf34de56720ec29327693d49a4cf48d7d9cf6.
 # - 20260521-04.json  → skeletonFirst — paraphrase-rewrite of ep1542 winner (UID 181, fa4b34d8, consensus 8.218). Same structure (7 sections same order: mandate / what-is-skeleton / format-list-of-8 / iterate-5-step / keep-valid / budget-1/5-3/5 / partial / 5-anti-patterns), lexically reworded ("anchor"→"skeleton", "scores zero"→"every assertion fails", "outscores"→"counts for more than"). Audit PASS (high confidence) per CALIBRATION-5 precedent. Hash: db0adb9fdbbfbc2376a68eb4c37566f8cba165337ba515b07f7c8d0275cff63a.
 # - 20260522-01.json  → convergeOnVerifier — paraphrase-rewrite of UID 179 pack af3f92ba04d3 "Verifier-Driven Convergence" (chain ep1584 consensus 8.304, winner_held due to 3% margin shortfall). 11 sections (anchor + pipeline mapping + read consumer source + run verifier + script live-validate + iterate vs named failures + numerical iter + stop probing + failure msgs + done def). 9590B (longer than typical). Audit PASS (medium-high) per CALIBRATION-5 precedent + source pack passed pre-eval. Hash: 773c820fd36b3e2c994ec402c087235c8fa7000efd6682d37e9dd7d00c7b089c.
+# - 20260524-233657-e791aadd-paraphrase.json → Practical Delivery Loop — paraphrase of 20260524-e791aadd-public. Preserves exact-path delivery, test/self-verification loop, minimal fixes, and live-system reload/probe discipline. Built as local wording variant; eval pending. Hash: ce09fdc75a0f781d834713df26ac125953abd99b2a6db5d8df12f4e4f28afd08.
 *
 !.gitignore
 !pack.json
@@ -75,3 +76,4 @@
 !20260519-14B.json
 !20260521-04.json
 !20260522-01.json
+!20260524-233657-e791aadd-paraphrase.json
