@@ -40,6 +40,7 @@
 # - 20260522-01.json  → convergeOnVerifier — paraphrase-rewrite of UID 179 pack af3f92ba04d3 "Verifier-Driven Convergence" (chain ep1584 consensus 8.304, winner_held due to 3% margin shortfall). 11 sections (anchor + pipeline mapping + read consumer source + run verifier + script live-validate + iterate vs named failures + numerical iter + stop probing + failure msgs + done def). 9590B (longer than typical). Audit PASS (medium-high) per CALIBRATION-5 precedent + source pack passed pre-eval. Hash: 773c820fd36b3e2c994ec402c087235c8fa7000efd6682d37e9dd7d00c7b089c.
 # - 20260524-01.json → Practical Delivery Loop — paraphrase of 20260524-e791aadd-public. Preserves exact-path delivery, test/self-verification loop, minimal fixes, and live-system reload/probe discipline. Built as local wording variant; eval pending. Hash: ce09fdc75a0f781d834713df26ac125953abd99b2a6db5d8df12f4e4f28afd08.
 # - 20260524-01B.json → Practical Delivery Loop variant B — semantically identical hash variant of 20260524-01 with two independent CHECK bullets swapped. Pack hash: 89dd381a736fcb4f5440d34723050f413133e25ab31aa5dff813fd790df13e65.
+# - 20260525-01.json → Deliverable-Verifier Loop — paraphrase of public anchor-verifier-fusion pack 6448e5c5. Preserves exact-path anchor-first discipline, consumer-pipeline mapping, real verifier iteration, and same-class failure pivot rule. Pack hash: 45d575e9ab702838aefb1d893530cb0695cb1708457c7c94fa7831b6d7ebcd56.
 *
 !.gitignore
 !pack.json
@@ -79,3 +80,4 @@
 !20260522-01.json
 !20260524-01.json
 !20260524-01B.json
+!20260525-01.json
