@@ -41,6 +41,7 @@
 # - 20260524-01.json → Practical Delivery Loop — paraphrase of 20260524-e791aadd-public. Preserves exact-path delivery, test/self-verification loop, minimal fixes, and live-system reload/probe discipline. Built as local wording variant; eval pending. Hash: ce09fdc75a0f781d834713df26ac125953abd99b2a6db5d8df12f4e4f28afd08.
 # - 20260524-01B.json → Practical Delivery Loop variant B — semantically identical hash variant of 20260524-01 with two independent CHECK bullets swapped. Pack hash: 89dd381a736fcb4f5440d34723050f413133e25ab31aa5dff813fd790df13e65.
 # - 20260525-01.json → Deliverable-Verifier Loop — paraphrase of public anchor-verifier-fusion pack 6448e5c5. Preserves exact-path anchor-first discipline, consumer-pipeline mapping, real verifier iteration, and same-class failure pivot rule. Pack hash: 45d575e9ab702838aefb1d893530cb0695cb1708457c7c94fa7831b6d7ebcd56.
+# - 20260525-02.json → Artifact Reality Loop — second paraphrase of the same public anchor-verifier-fusion lineage. Preserves final-path artifact seed, real consumer-chain tracing, evidence-loop verification, and same-class tactic switching. Pack hash: 827f3327b5f93b2aa76b188791e6c97ef62e4e81dd89034bd63cd5ce35852e7a.
 *
 !.gitignore
 !pack.json
@@ -81,3 +82,4 @@
 !20260524-01.json
 !20260524-01B.json
 !20260525-01.json
+!20260525-02.json
